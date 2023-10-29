@@ -1,0 +1,29 @@
+# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific files
+.idea/
+.vscode/
+npm-debug.log
+
+# Ignore compiled binaries or libraries
+node_modules/
+build/
+dist/
+
+# Ignore environment-specific configuration files
+.env
+.env.local
+
+# Ignore dependency management files
+yarn.lock
+package-lock.json
+
+# Ignore user uploads or generated content
+uploads/
+public/uploads/
